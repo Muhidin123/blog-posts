@@ -1,0 +1,28 @@
+{
+  "name": "blog-posts-muhidin",
+  "version": "1.0.0",
+  "description": "building an api for blog posts, it will require to fetch from a different api first",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon --harmony -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Muhidin123/blog-posts.git"
+  },
+  "author": "Muhidin Hukic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhidin123/blog-posts/issues"
+  },
+  "homepage": "https://github.com/Muhidin123/blog-posts#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
